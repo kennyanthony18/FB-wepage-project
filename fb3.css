@@ -1,0 +1,105 @@
+.ken{
+    background-image: url(./images/backgroung.JPG);
+    height:98%;
+    width: 98%;
+    position: absolute;
+    opacity: .18;
+}
+
+.create-account{
+    width: 500px;
+    height: 600px;
+    border: solid 1px black;
+    margin-left: 500px;
+    position: relative;
+   
+}
+.header{
+    margin-left: 40px;
+}
+
+h1{
+    color: #1c1e21;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 80px;
+}
+h4{
+    margin-left: 40px;
+}
+.form1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form1 input{
+    width: 200px;
+     height: 30px;
+     border-radius: 5px;
+     padding-left: 10px;
+     font-weight: bold;
+}
+.form2 input{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.form2{
+    margin-left: 10px;
+}
+.form3 input{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.form3{
+    margin-left: 10px;
+
+}
+.form4 input{
+  border: solid 5px black;
+
+}
+.submit-btn{
+    margin-top: -80px;
+}
+.submit-btn input{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial;
+    margin-left: 40px;
+    background-color: #69a74e;
+    color: white;
+
+}
+.form4 label{
+    margin-left: 20px;
+}
+.form4 label .Gender{
+    border: solid 2px black; 
+}
+.form5 select{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+    padding-top: -10px;
+}
+.form5{
+    margin-left: 10px;
+    margin-top: -20px;
+   
+}
+.Gender input{
+    width: 150px;
+    height: 30px;
+
+}

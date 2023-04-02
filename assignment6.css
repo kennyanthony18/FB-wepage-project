@@ -1,0 +1,81 @@
+.mainframe
+{
+    display: flex;
+    justify-content:space-between;
+    margin-top:200px;
+    margin-bottom:200px; 
+    margin-right: 300px;
+
+
+}
+
+img
+{
+    height: 100px;
+    width: 300px;
+    margin-left: 300px;
+    
+}
+
+fieldset
+{
+    height: 330px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.text
+{
+    text-align:justify;
+    margin-left: 340px;
+    font-size: larger;
+    
+}
+.field
+{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.a
+{
+    margin-left: 30px;
+    margin-bottom:50px ;
+}
+p
+{
+    color: white;
+   
+    border: solid 1px black;
+    background-color: green;
+    font-weight: bolder;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+button
+{
+    background-color: green;
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 40px;
+   
+}
+.login
+{
+    width: 260px;
+    height: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: blue;
+    font-size: large;
+    border-radius: 10px;
+}

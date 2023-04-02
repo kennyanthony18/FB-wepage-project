@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACEBOOK</title>
+    <link rel="stylesheet" href="./fb3.css">
+</head>
+<body>
+  <div class="ken"></div>
+   <div class="create-account">
+    <h1 class="header">Sign Up</h1>
+    <h4>It's quick and easy.</h4>
+    <hr>
+    <div class="form">
+        <form action="" onsubmit="return  validation()">
+           <div class="form1">
+            <input type="text" name="fnm" placeholder="Enter First Name" >
+            <br>
+            <span class="error-msz"></span>
+
+            <input type="text" name="abc" placeholder="Enter Last Name">
+            <br> <br>
+            <text class="error-msz1"></text>
+           </div>
+           <br><br>
+
+          <div class="form2">
+            <input type="email" name="def" placeholder="Enter your emial id">
+            <br> <br>
+             <text class="error-msz2"></text>
+          </div>
+
+          <div class="form3">
+            <input type="password" name="abc1" placeholder="Enter password">
+            <br> <br>
+            <text class="error-msz3"></text>
+          </div>
+
+          <div class="form5">
+            <h5>DATE OF BIRTH</h5>
+           <select name="Day" id="" class="slct" required>
+            <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+           </select>
+           <select name="Month" id="" class="slct" required>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option>>
+           </select>
+           <select name="Year" id="" class="slct" required>
+            <option>2022</option>
+          <option>2021</option>
+          <option>2020</option>
+          <option>2019</option>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+           </select>
+          </div>
+          <br><br><br>
+
+          <div class="form4">
+           <label class="la" required>Gender:- </label>
+           <select>
+            <option value="1">MALE</option>
+            <input type="radio" name="Gender" value="MALE" id="m" checked>
+            <text class="error-msz4"></text>
+           </select>
+
+           <select name="Gender" id="">
+            <option value="1">FEMALE</option>
+            <input type="radio" name="Gender" value="FEMALE" id="f">
+           
+           </select>
+           <select name="Gender" id="">
+            <option value="1">OTHERS</option>
+            <input type="radio" name="Gender" value="OTHERS" id="o">
+
+           </select>
+          </div>
+    
+          <br><br><br>
+            <br><br>
+           <div class="submit-btn">
+            <input type="submit">
+           </div>
+        </form>
+    </div>
+   </div>
+
+
+
+    <script src="./fb3.js"></script>
+</body>
+</html>
